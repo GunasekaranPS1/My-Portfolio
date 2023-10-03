@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunasekaran - Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f6d6b5a8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/guna-logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="one" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="one" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Hello, Welcome Fellow Explorers! <br/>I'm <span style="color: red;">Gunasekaran P</span></h2>
+                <p id="typing-text" class="typing-animation" style="color: rgb(30, 230, 245);"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm Gunasekaran, a Computer Science Engineer deeply enamored with the world of web development. Armed with a solid educational background in Computer Science and hands-on experience, I'm equipped with a diverse skill set that fuels my passion for creating dynamic online experiences.
+                       The potency of coding to bring ideas to life is something I wholeheartedly believe in. My journey as a Computer Science Engineer has been exhilarating, driving me to continuously expand my knowledge. This voyage has kindled in me a profound reverence for the intricate artistry of web development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>React.js</span></li>
+                            <li><span>GitHub (basics)</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 (Jul - PRESENT)</span><br>Full Stack Development Internship at Skill Lync</li>
+                            <li><span>2023 (Jan - Jun)</span><br>Frontend Developer Training at Skill Lync with Certificate</li>
+                            <li><span>2022 (Jun - Jul)</span><br>Web Development training at Internshala Training with Certificate</li>
+                            <li><span>2020 Oct - 2022 Mar</span><br>Transport & Quality Incharge in Shri Varalakshmi Company</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>B.E - CSE at Gnanamani College of Technology with 64.30%</li>
+                            <li><span>2016</span><br>HSC(12th) from TamilNadu StateBoard with 72.08%</li>
+                            <li><span>2014</span><br>SSLC(10th) from TamilNadu StateBoard with 83%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Develop</h2>
+                    <p> My approach to web design seamlessly blends functionality with creativity, ensuring that each site not only works flawlessly but also leaves a lasting impression. Whether it's developing responsive layouts, selecting the perfect color palettes, or optimizing user journeys, I take pride in creating websites that resonate with audiences and elevate brands.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Backend Develop(Beginner)</h2>
+                    <p>I'm currently a beginner in backend development, I'm excited to the world of coding that powers the functionality of websites and applications. I'm eager to contribute to building the backbone of digital experiences. My journey began with the curiosity to understand how data flows, databases are structured, and servers operate.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Meme Creation</h2>
+                    <p>In the world of light-hearted content, meme creation is my playground. With a penchant for humor and a knack for cultural trends, I specialize in crafting engaging memes that resonate with online audiences. My approach involves blending wit with relatable themes, resulting in shareable content that sparks conversations and brings smiles. Whether it's for social media marketing or community engagement, I understand the art of crafting memes that entertain, inform, and subtly convey messages.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Expense Tracker App</h3>
+                        <p>This App used to track your income and expenses in a very efficient manner.</p>
+                        <a href="https://github.com/GunasekaranPS1/Expense-Tracker.git" target="_blank"><i class="fa-solid fa-code-branch"></i></a>
+                        <a href="https://whimsical-empanada-3a250f.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Shopping Cart App</h3>
+                        <p>This website create for shopping a products and it provide user friendly</p>
+                        <a href="https://github.com/GunasekaranPS1/Shopping-Cart.git" target="_blank"><i class="fa-solid fa-code-branch"></i></a>
+                        <a href="https://superlative-biscuit-9ac697.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Password Generator</h3>
+                        <p>This App create different and strong password patterens whenever user requests</p>
+                        <a href="https://github.com/GunasekaranPS1/Password-Generator.git" target="_blank"><i class="fa-solid fa-code-branch"></i></a>
+                        <a href="https://subtle-gaufre-87666e.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>pgunasekaran28@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile"></i>+91 9080508875</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/home" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/home" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                      
+                    <a href="images/Gunasekaran P - Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div id="scroll-to-top">
+            <a href="#header"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Gunasekaran. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
